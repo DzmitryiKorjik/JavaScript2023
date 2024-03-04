@@ -1,4 +1,4 @@
-"use stricte";
+'use strict';
 
 let result = "";
 const length = 7;
@@ -121,16 +121,16 @@ console.log(thirdTask());
 
 
 const lines = 5;
-let result = "";
+let resultS = "";
 
     for (let i = 0; i <= lines; i++) {
         for (let j = 0; j < lines - i; j++) {
-            result += " ";
+            resultS += " ";
         }
         for (let j = 0; j < 2 * i + 1; j++) {
-        result += "*";
+        resultS += "*";
     }
-        result += "\n";
+        resultS += "\n";
 }
-console.log(result);
+console.log(resultS);
 

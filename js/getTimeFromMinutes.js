@@ -1,4 +1,4 @@
-"use stricte";
+'use strict';
 
 function getTimeFromMinutes(minutes) {
     if (!Number.isInteger(minutes) || minutes < 0 || minutes > 600) {

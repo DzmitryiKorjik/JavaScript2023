@@ -1,4 +1,4 @@
-"use stricte";
+'use strict';
 
 // Место для первой задачи
 function calculateVolumeAndArea(edgeLength) {
